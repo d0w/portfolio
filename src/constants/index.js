@@ -1,4 +1,5 @@
 import {
+  linkedin,
   pmready,
     ourtube,
     svlearn,
@@ -26,6 +27,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    github
   } from "../assets";
   
   export const navLinks = [
@@ -50,7 +52,7 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Software Engineer",
       icon: web,
     },
     {
@@ -58,7 +60,7 @@ import {
       icon: mobile,
     },
     {
-      title: "AI Researcher",
+      title: "Deep Learning Researcher",
       icon: backend,
     },
     {
@@ -112,49 +114,59 @@ import {
     {
       name: "figma",
       icon: figma,
+    },
+    {
+      name: "+ many more"
     }
   ];
   
   const experiences = [
     {
-      title: "AI Researcher",
-      company_name: "University of California, Riverside",
-      icon: starbucks,
+      title: "Software Engineer Intern",
+      company_name: "CoolGreenPower LLC",
+      icon: github,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "May 2023 - August 2023",
       points: [
-        "Did stuff",
-        "did other stuff",
-        "made this", 
-        "made that"
+        "Initiated the deployment of a mobile application, engineered using the MERN stack, enabling property managers to monitor their assets effectively through a network of numerous IoT sensors.",
+        "Developed and maintained a secure ExpressJS REST API and established a continuous integration pipeline to deploy updates to an Azure environment, facilitating an agile development workflow.",
+        "Captured and managed data from hundreds of IoT devices from over 50 establishments through the use of Azure functions, pipelining the data into deep learning models to generate alerts for the end user."
+      ],
+    },
+    {
+      title: "Deep Learning Researcher",
+      company_name: "University of California, Riverside",
+      icon: github,
+      iconBg: "#383E56",
+      date: "September 2021 - Present",
+      points: [
+        "Conducted an extensive review of research papers and modified more than 5000 lines of Python code to develop novel techniques for enhancing the efficiency of convolutional neural networks.",
+        "Designed and implemented a method to enhance the efficiency of singular value decomposition with machine learning models by 35% through innovative processing of image and tabular data."
       ],
     },
     {
       title: "Digital Media Lead",
       company_name: "PMReady",
-      icon: starbucks,
+      icon: github,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "January 2023 - Present",
       points: [
-        "Did stuff",
-        "did other stuff",
-        "made this", 
-        "made that"
+        "Utilized a combination of product design and project management expertise to provide strategic advice to three product teams on conducting user interviews, market research, and creating successful prototypes.",
+        "Engineered a responsive and user-friendly web application using ReactJS, featuring real-time updates on events through the Google Calendar API, and general information for 100 monthly users."
       ],
     },
     {
-      title: "Backend Developer",
-      company_name: "Recto",
-      icon: starbucks,
+      title: "Impact Team Member",
+      company_name: "Hack4Impact",
+      icon: github,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "January 2023 - Present",
       points: [
-        "Did stuff",
-        "did other stuff",
-        "made this", 
-        "made that"
+        "Worked closely with peers to design and develop 4 small web-applications such as Yelp clones using NodeJS, ExpressJS, MongoDB, and React, showcasing strong collaboration and technical skills.",
+        "Conceptualized and developed a user-friendly trash-management application enabling clients to connect with over 1,000 freelance transporters, providing an eco-friendly solution for disposing of unwanted items."
       ],
     },
+
     
     
   ];
@@ -239,5 +251,20 @@ import {
       source_code_link: "https://github.com/PMReady/website2",
     },
   ];
+
+  const socials = [
+    {
+      id: "github",
+      name: "Github",
+      link: "https://github.com/d0w",
+      icon: github,
+    },
+    {
+      id: "linkedin",
+      name: "LinkedIn",
+      link: "https://www.linkedin.com/in/xuderek04/",
+      icon: linkedin,
+    }
+  ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, socials };

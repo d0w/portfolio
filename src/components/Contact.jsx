@@ -31,6 +31,7 @@ const Contact = () => {
         className='flex-[0.75] bg-black-100 p-8 rounded-2x1'>
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <p className='text-secondary mt-4'><strong>Email: </strong>derekxu.work@gmail.com</p>
 
         <form ref={formRef}
         onSubmit={handleSubmit}
@@ -61,9 +62,9 @@ const Contact = () => {
                 </textarea>
           </label>
 
-          <button type="submit"
+          <button type="submit" disabled
             className='bg-tertiary py-3 px-6 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'>
-              { loading ? "Sending..." : "Send"}
+              { loading ? "Sending..." : "Send (Under construction)"}
             </button>
       </form>
       </motion.div>

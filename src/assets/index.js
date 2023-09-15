@@ -35,7 +35,10 @@ import ieee from "./ieee_icon.png"
 import ourtube from "./youtube-clone.png"
 import pmready from "./pmready.png"
 
+import linkedin from "./LinkedIn_icon.png"
+
 export {
+  linkedin,
   pmready,
   ourtube,
   ieee,

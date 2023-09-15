@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect, useState } from 'react'
 import { Link } from "react-router-dom"
 import { styles } from "../styles"
-import { navLinks } from '../constants/index.js'
+import { navLinks, socials } from '../constants/index.js'
 import { logo, menu, close } from '../assets';
 
 const Navbar = () => {
@@ -20,9 +20,18 @@ const Navbar = () => {
               <img src={logo} alt="logo" className='w-9 h-9 object-contain'/>
               <p className='text-white text-[18px] font-bold cursor-pointer'>Derek</p>
             </Link>
-
           
-            <ul className='list-none lg:ml-[5rem] ml-[2rem] items-center flex flex-row gap-10'>
+            <ul className='list-none lg:ml-[5rem] ml-[2rem] items-center flex flex-row gap-5'>
+              { socials.map((social) => (
+                <li key={social.id} className='text-white text-[18px] font-medium cursor-pointer'>
+                  <a href={social.link} target="_blank" rel="noreferrer">
+                    <img className="w-8 h-8" src={social.icon} alt={social.name} />
+                  </a>
+                </li>
+              ))}
+
+            </ul>
+            {/* <ul className='list-none lg:ml-[5rem] ml-[2rem] items-center flex flex-row gap-10'>
               <li>
                 Link 1
               </li>
@@ -32,7 +41,7 @@ const Navbar = () => {
               <li>
                 Link 3
               </li>
-            </ul>
+            </ul> */}
           </div>
 
           <ul className='list-none hidden md:flex flex-row gap-10'>

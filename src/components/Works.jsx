@@ -71,15 +71,20 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
       
       :
       
-      <Tilt 
-        options={{
-          max:45,
-          scale:1,
-          speed:450
-        }} 
-        className="bg-tertiary p-5 rounded-2xl
-          sm:w-[360px] w-full"
-      >
+      // <Tilt 
+      //   options={{
+      //     max:45,
+      //     scale:1,
+      //     speed:450
+      //   }} 
+      //   className="bg-tertiary p-5 rounded-2xl
+      //     sm:w-[360px] w-full"
+        
+      // >
+      <div 
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full hover:cursor-pointer hover:transform hover:scale-105 transition duration-200 ease-in-out"
+        onClick={() => window.open(source_code_link,"_blank")}
+        >
         {/* Image */}
         <div className='relative w-full h-[230px]'>
           <div onClick={() => window.open(source_code_link,"_blank")} className='cursor-pointer'>
@@ -88,13 +93,13 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
         </div>
 
         {/* github logo */}
-        <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+        {/* <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
           <div onClick={() => window.open(source_code_link,"_blank")}
             className='green-pink-gradient w-12 h-12 rounded-full flex justify-center items-center cursor-pointer'
           >
             <img src={name==="SV-Learn"?ieee:github} alt="github" className='w-3/4 h-3/4 object-contain'/>
           </div>
-        </div>
+        </div> */}
 
         <div className='mt-5'>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
@@ -108,7 +113,9 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
             </p>
           ))}
         </div>
-      </Tilt>}
+      {/* </Tilt>} */}
+      </div>
+      }
       
     </motion.div>
   )
