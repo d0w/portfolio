@@ -178,7 +178,7 @@ import {
     {
       name: "SV-Learn",
       description:
-        "Random description cause im lazy rn",
+        "Published research paper on using neural networks to enhance the efficiency of the singular value decomposition",
       tags: [
         {
           name: "python",
@@ -203,7 +203,7 @@ import {
     {
       name: "OurTube",
       description:
-        "Youtube clone thing",
+        "A simple Youtube clone",
       tags: [
         {
           name: "react",
@@ -232,7 +232,7 @@ import {
     {
       name: "PMReady Landing Site",
       description:
-        "Site for pmready",
+        "Landing page for PMReady",
       tags: [
         {
           name: "nextjs",
