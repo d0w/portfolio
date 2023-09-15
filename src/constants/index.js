@@ -178,7 +178,7 @@ import {
     {
       name: "SV-Learn",
       description:
-        "Published research paper on using neural networks to enhance the efficiency of the singular value decomposition",
+        "Using neural networks to enhance the efficiency of the singular value decomposition",
       tags: [
         {
           name: "python",
