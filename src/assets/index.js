@@ -77,8 +77,6 @@ export {
   carrent,
   jobit,
   tripguide,
-  svlearn,
-  github,
   azure,
   coolgreenpower,
   sql,
