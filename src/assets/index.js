@@ -36,6 +36,12 @@ import ourtube from "./youtube-clone.png"
 import pmready from "./pmready.png"
 
 import linkedin from "./LinkedIn_icon.png"
+import azure from "./tech/azure.png"
+import sql from "./tech/sql.png"
+
+import coolgreenpower from "./company/coolgreenpower.png"
+import ucr from "./company/ucr.png"
+
 
 export {
   linkedin,
@@ -71,4 +77,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  svlearn,
+  github,
+  azure,
+  coolgreenpower,
+  sql,
+  ucr
 };
+

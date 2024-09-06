@@ -31,9 +31,10 @@ const Contact = () => {
         className='flex-[0.75] bg-black-100 p-8 rounded-2x1'>
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
-        <p className='text-secondary mt-4'><strong>Email: </strong>derekxu.work@gmail.com</p>
+        <p className='text-secondary mt-4'><strong>Email: </strong><a href="mailto:derekxu.work@gmail.com">derekxu.work@gmail.com</a></p>
+        <p className='text-secondary mt-4'><strong>LinkedIn: </strong><a href="https://www.linkedin.com/in/xuderek04/" className='cursor-pointer'>https://www.linkedin.com/in/xuderek04/</a></p>
 
-        <form ref={formRef}
+        {/* <form ref={formRef}
         onSubmit={handleSubmit}
         className='mt-12 flex flex-col gap-8'>
 
@@ -66,14 +67,14 @@ const Contact = () => {
             className='bg-tertiary py-3 px-6 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'>
               { loading ? "Sending..." : "Send (Under construction)"}
             </button>
-      </form>
+      </form> */}
       </motion.div>
-      <motion.div
+      {/* <motion.div
         variants={slideIn('right', "tween", 0.2,1)}
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'> 
         <EarthCanvas/>
         
-      </motion.div>
+      </motion.div> */}
       
     </div>
   )

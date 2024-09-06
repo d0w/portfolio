@@ -27,7 +27,11 @@ import {
     jobit,
     tripguide,
     threejs,
-    github
+    github,
+    azure,
+    sql,
+    coolgreenpower,
+    ucr
   } from "../assets";
   
   export const navLinks = [
@@ -116,17 +120,26 @@ import {
       icon: figma,
     },
     {
+      name: "azure",
+      icon: azure
+    },
+    {
+      name: "sql",
+      icon: sql
+    },
+    {
       name: "+ many more"
-    }
+    },
+
   ];
   
   const experiences = [
     {
       title: "Software Engineer Intern",
       company_name: "CoolGreenPower LLC",
-      icon: github,
+      icon: coolgreenpower,
       iconBg: "#383E56",
-      date: "May 2023 - August 2023",
+      date: "May 2023 - August 2024",
       points: [
         "Initiated the deployment of a mobile application, engineered using the MERN stack, enabling property managers to monitor their assets effectively through a network of numerous IoT sensors.",
         "Developed and maintained a secure ExpressJS REST API and established a continuous integration pipeline to deploy updates to an Azure environment, facilitating an agile development workflow.",
@@ -136,9 +149,9 @@ import {
     {
       title: "Deep Learning Researcher",
       company_name: "University of California, Riverside",
-      icon: github,
+      icon: ucr,
       iconBg: "#383E56",
-      date: "September 2021 - Present",
+      date: "September 2021 - September 2023",
       points: [
         "Conducted an extensive review of research papers and modified more than 5000 lines of Python code to develop novel techniques for enhancing the efficiency of convolutional neural networks.",
         "Designed and implemented a method to enhance the efficiency of singular value decomposition with machine learning models by 35% through innovative processing of image and tabular data."
@@ -227,7 +240,7 @@ import {
         }
       ],
       image: ourtube,
-      source_code_link: "https://github.com/owenm-26/Ourtube",
+      source_code_link: "https://github.com/d0w/ourtube",
     },
     {
       name: "PMReady Landing Site",

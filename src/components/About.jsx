@@ -22,7 +22,7 @@ const ServiceCard = ({index,title,icon}) => {
             className='bg-tertiary rounded-[20px] py-5 px-12
               min-h-[250px] flex justify-evenly items-center flex-col'
           >
-            <img src={icon} alt={title} className="w-16 h-16 object-contain" />
+            {/* <img src={icon} alt={title} className="w-16 h-16 object-contain" /> */}
             <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
           </div>
       </motion.div>
@@ -42,8 +42,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] 
           max-w-3xl leading-[30px]">
-        I have no clue what to write about myself yet so if this is
-        still here when you guys see this then hello!
+        Hi! I'm a full-time computer engineering student based in Boston who loves to innovate both in the technological and artist space.
+        I have a strong passion for learning the intricacies of software development, design, and I'm always looking for new ways to improve my skills both in personal and professional settings.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10 sm:justify-start justify-center">
