@@ -31,7 +31,8 @@ import {
     azure,
     sql,
     coolgreenpower,
-    ucr
+    ucr,
+    bostonhacks
   } from "../assets";
   
   export const navLinks = [
@@ -214,6 +215,35 @@ import {
       source_code_link: "https://ieeexplore.ieee.org/document/10031050",
     },
     {
+      name: "BostonHacks Landing Site",
+      description:
+        "Yearly landing page for BostonHacks, Boston's largest annual hackathon",
+      tags: [
+        {
+          name: "nextjs",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "scss",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "PostgreSQL",
+          color: "blue-text-gradient"
+        },
+        {
+          name: "MongoDB",
+          color: "green-text-gradient"
+        }
+      ],
+      image: bostonhacks,
+      source_code_link: "http://bostonhacks.org/",
+    },
+    {
       name: "OurTube",
       description:
         "A simple Youtube clone",
@@ -242,27 +272,7 @@ import {
       image: ourtube,
       source_code_link: "https://github.com/d0w/ourtube",
     },
-    {
-      name: "PMReady Landing Site",
-      description:
-        "Landing page for PMReady",
-      tags: [
-        {
-          name: "nextjs",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: pmready,
-      source_code_link: "https://github.com/PMReady/website2",
-    },
+    
   ];
 
   const socials = [

@@ -34,6 +34,7 @@ import svlearn from "./svlearn.jpg"
 import ieee from "./ieee_icon.png"
 import ourtube from "./youtube-clone.png"
 import pmready from "./pmready.png"
+import bostonhacks from "./bostonhacks.png"
 
 import linkedin from "./LinkedIn_icon.png"
 import azure from "./tech/azure.png"
@@ -44,6 +45,7 @@ import ucr from "./company/ucr.png"
 
 
 export {
+  bostonhacks,
   linkedin,
   pmready,
   ourtube,
